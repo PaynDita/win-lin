@@ -1,8 +1,13 @@
- cd /mnt
+cd /mnt
+
+mount -t drvfs 'c:' /mnt/c
+
+-------------------------------------------------------------------
+
+cd /mnt
 root@DEV-DATASCI-JUP:/mnt# ls
 c
 root@DEV-DATASCI-JUP:/mnt# mount -t drvfs 'c:' /mnt/c
-...
 root@DEV-DATASCI-JUP:/mnt# ls
 c
 root@DEV-DATASCI-JUP:/mnt# cd c
